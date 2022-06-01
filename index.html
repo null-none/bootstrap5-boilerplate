@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title></title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="dist/main.css">
+        <style type="text/css">
+            h2 {
+                padding: 20px 0;
+            }
+            hr {
+                margin: 20px 0;
+            }
+            .bd-example-row .row > .col, .bd-example-row .row > [class^="col-"] {
+                padding-top: .75rem;
+                padding-bottom: .75rem;
+                background-color: rgba(86,61,124,.15);
+                border: 1px solid rgba(86,61,124,.2);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container pb-5">
+            <h1 class="text-center">Bootstrap5 boilerplate</h1>
+            <div class="bd-example-row">
+                <hr>
+                <h2 class="text-center">Grid</h2>
+                <div class="row">
+                    <div class="col-sm">
+                        One of three columns
+                    </div>
+                    <div class="col-sm">
+                        One of three columns
+                    </div>
+                    <div class="col-sm">
+                        One of three columns
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        1 of 2
+                    </div>
+                    <div class="col">
+                        2 of 2
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        1 of 3
+                    </div>
+                    <div class="col">
+                        2 of 3
+                    </div>
+                    <div class="col">
+                        3 of 3
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <h2 class="text-center">Alerts</h2>
+            <div class="alert alert-primary" role="alert">
+                This is a primary alert—check it out!
+            </div>
+            <div class="alert alert-secondary" role="alert">
+                This is a secondary alert—check it out!
+            </div>
+            <div class="alert alert-success" role="alert">
+                This is a success alert—check it out!
+            </div>
+            <div class="alert alert-danger" role="alert">
+                This is a danger alert—check it out!
+            </div>
+            <hr>
+            <h2 class="text-center">Buttons</h2>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success text-white">Success</button>
+            <button type="button" class="btn btn-danger text-white">Danger</button>
+            <button type="button" class="btn btn-warning text-white">Warning</button>
+            <button type="button" class="btn btn-info text-white">Info</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <hr>
+            <h2 class="text-center">Collapse</h2>
+            <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+            </p>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="card card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="card card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <h2 class="text-center">Dropdown</h2>
+            <!-- Large button groups (default and split) -->
+            <div class="btn-group">
+              <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Large button
+              </button>
+              <ul class="dropdown-menu">
+                <li>Item 1</li>
+                <li>Item 2</li>
+              </ul>
+            </div>
+            <div class="btn-group">
+              <button class="btn btn-secondary btn-lg" type="button">
+                Large split button
+              </button>
+              <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li>Item 1</li>
+                <li>Item 2</li>
+              </ul>
+            </div>
+
+            <hr>
+
+            <h2 class="text-center">Modal</h2>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Launch demo modal
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <hr>
+
+            <h2 class="text-center">Pagination</h2>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </div>
+        <!-- end -->
+        <script src="dist/main.js"></script>
+    </body>
+</html>
